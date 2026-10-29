@@ -16,6 +16,7 @@ jobs:
 
 
   goodbye:
+    needs: hello
     runs-on: ubuntu-latest
     steps:
       - name: say goodbye
