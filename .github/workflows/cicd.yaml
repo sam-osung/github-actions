@@ -14,5 +14,9 @@ jobs:
       - name: say hello
         run: echo "Hello World"
 
+
+  goodbye:
+    runs-on: ubuntu-latest
+    steps:
       - name: say goodbye
         run: echo "Goodbye World"
